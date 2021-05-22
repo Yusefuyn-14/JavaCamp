@@ -1,0 +1,7 @@
+package entities.concrete;
+import entities.abstracts.user;
+
+public class Instructor extends user {
+	public String category;
+	public String[] camps;
+}

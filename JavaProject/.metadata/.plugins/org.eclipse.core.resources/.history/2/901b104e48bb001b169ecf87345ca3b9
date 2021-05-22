@@ -1,0 +1,6 @@
+
+public interface user {
+	 private int userID;
+	 private String firstName;
+	 private String lastName;
+}

@@ -1,0 +1,8 @@
+package entities.concrete;
+
+import entities.abstracts.user;
+
+public class Student extends user {
+	public String[] completedCamps;
+	public String[] dontCompletedCamps;
+}

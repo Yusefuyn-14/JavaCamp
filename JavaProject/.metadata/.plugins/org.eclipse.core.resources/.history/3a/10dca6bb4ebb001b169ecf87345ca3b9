@@ -1,0 +1,18 @@
+package manager.concrete;
+
+import entities.concrete.Instructor;
+import manager.abstracts.Manager;
+
+public class InstructorManager extends Manager {
+	public void add() {}
+	public void bulkAdd(Instructor[] instructors) {}
+	
+	public void delete() {}
+	public void bulkDelete(Instructor[] instructors) {}
+	
+	public void edit() {}
+	
+	public void list() {}
+	public void listAll() {}
+	
+}

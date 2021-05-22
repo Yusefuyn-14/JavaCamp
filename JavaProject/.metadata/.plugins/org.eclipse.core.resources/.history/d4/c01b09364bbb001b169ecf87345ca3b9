@@ -1,0 +1,6 @@
+package entities.concrete;
+
+public class Student extends user {
+	String[] completedCamps;
+	String[] dontCompletedCamps;
+}

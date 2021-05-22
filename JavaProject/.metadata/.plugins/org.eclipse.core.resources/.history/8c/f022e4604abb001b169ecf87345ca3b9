@@ -1,0 +1,24 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Instructor instructor = new Instructor();
+		instructor.userID = 1;
+		instructor.firstName = "Engin";
+		instructor.lastName = "Demiroğ";
+		instructor.category = "Yazılım";
+		String[] instructorCamps = new String[] {"Java","CSharp"};
+		instructor.camps = instructorCamps;
+		
+		Student student = new Student();
+		student.userID = 1;
+		student.firstName = "Ahmet";
+		student.lastName = "Mehmet";
+		String[] dCompletedCamps = new String[] {"CSharp"};
+		student.dontCompletedCamps = dCompletedCamps;
+		String[] completedCamps = new String[] {"Java"};
+		student.completedCamps = completedCamps;
+	}
+
+}

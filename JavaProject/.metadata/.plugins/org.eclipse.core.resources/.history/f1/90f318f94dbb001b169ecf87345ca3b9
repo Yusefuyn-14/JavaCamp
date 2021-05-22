@@ -1,0 +1,7 @@
+package manager.concrete;
+
+import manager.abstracts.Manager;
+
+public class InstructorManager {
+
+}

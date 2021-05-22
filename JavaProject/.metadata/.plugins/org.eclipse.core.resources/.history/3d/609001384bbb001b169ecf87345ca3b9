@@ -1,0 +1,6 @@
+package entities.concrete;
+
+public class Instructor extends user {
+	String category;
+	String[] camps;
+}

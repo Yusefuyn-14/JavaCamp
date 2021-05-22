@@ -1,0 +1,6 @@
+
+public class user {
+	int userID;
+	String firstName;
+	String lastName;
+}

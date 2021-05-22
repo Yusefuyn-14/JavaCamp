@@ -1,0 +1,30 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Instructor
+		Instructor instructor = new Instructor();
+		instructor.userID = 1;
+		instructor.firstName = "Engin";
+		instructor.lastName = "Demiroğ";
+		instructor.category = "Yazılım";
+		String[] instructorCamps = new String[] {"Java","CSharp"};
+		instructor.camps = instructorCamps;
+		
+		// Student
+		Student student = new Student();
+		student.userID = 1;
+		student.firstName = "Ahmet";
+		student.lastName = "Mehmet";
+		String[] dCompletedCamps = new String[] {"CSharp"};
+		student.dontCompletedCamps = dCompletedCamps;
+		String[] completedCamps = new String[] {"Java"};
+		student.completedCamps = completedCamps;
+		
+		System.out.println("-Eğitmen\n" + "| -"+instructor.firstName);
+		System.out.println("-\n-Öğrenci\n" + "| -" +student.firstName);
+		System.out.println("-");
+		
+	}
+
+}

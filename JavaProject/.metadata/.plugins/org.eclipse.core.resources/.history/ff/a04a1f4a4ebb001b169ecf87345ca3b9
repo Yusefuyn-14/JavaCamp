@@ -1,0 +1,16 @@
+package manager.concrete;
+
+import entities.concrete.Student;
+
+public class StudentManager {
+	public void add() {}
+	public void bulkAdd(Student[] addStudents) {}
+	
+	public void delete() {}
+	public void bulkDelete(Student[] deletedStudents) {}
+	
+	public void edit() {}
+	
+	public void list() {}
+	public void listAll() {}
+}
