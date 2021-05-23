@@ -26,6 +26,24 @@
     <fullyQualifiedTypeName name="java.awt.Dimension"/>
     <fullyQualifiedTypeName name="javax.swing.WindowConstants"/>
     <fullyQualifiedTypeName name="java.awt.Frame"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="interfaces.Utils"/>
+    <fullyQualifiedTypeName name="Instructor"/>
+    <fullyQualifiedTypeName name="Student"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="entities.abstracts.user"/>
+    <fullyQualifiedTypeName name="manager.abstracts.Manager"/>
+    <fullyQualifiedTypeName name="entities.concrete.Instructor"/>
+    <fullyQualifiedTypeName name="manager.concrete.InstructorManager"/>
+    <fullyQualifiedTypeName name="manager.concrete.StudentManager"/>
+    <fullyQualifiedTypeName name="entities.concrete.Student"/>
+    <fullyQualifiedTypeName name="Abstract.CustomerServices"/>
+    <fullyQualifiedTypeName name="Concrete.NeroCustomerManager"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Main"/>
+    <fullyQualifiedTypeName name="Concrete.StarbucksCustomerManager"/>
+    <fullyQualifiedTypeName name="Abstract.BaseCustomerManager"/>
+    <fullyQualifiedTypeName name="Entities.Customer"/>
+    <fullyQualifiedTypeName name="javax.swing.AbstractAction"/>
+    <fullyQualifiedTypeName name="Concrete.CustomerCheckManager"/>
+    <fullyQualifiedTypeName name="Abstract.CustomerCheckService"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,5 @@
+package Abstract;
+
+public interface CustomerServices {
+	void Save(Customer customer);
+}

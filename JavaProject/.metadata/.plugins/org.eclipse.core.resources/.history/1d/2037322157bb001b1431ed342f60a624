@@ -1,0 +1,23 @@
+import Concrete.NeroCustomerManager;
+import Concrete.StarbucksCustomerManager;
+import Entities.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		NeroCustomerManager neroCustomerManager = new NeroCustomerManager();
+		StarbucksCustomerManager startbucksCustomerManager = new StartbucksCustomerManager();
+		
+		
+		Customer customer = new Customer();
+		customer.setID(1);
+		customer.setFirstName("Engin");
+		customer.setLastName("Demiroğ");
+		customer.setNationalityId("28861499108");
+		
+		neroCustomerManager.Save(customer);
+		startbucksCustomerManager.Save();
+	}
+
+}

@@ -1,0 +1,7 @@
+
+public class Customer {
+ 	int ID;
+	String firstName;
+	String lastName;
+	String nationalityId;
+}

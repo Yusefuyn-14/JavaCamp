@@ -1,0 +1,20 @@
+package Concrete;
+
+import Abstract.BaseCustomerManager;
+import Entities.Customer;
+
+public class StarbucksCustomerManager extends BaseCustomerManager {
+	BaseCustomerManager baseCustomerManager = new BaseCustomerManager();
+	
+	public boolean checkIfRealPerson(Customer customer) {
+		
+		
+		
+		return false;
+	}
+	
+	public void Save(Customer customer) {
+		if(checkIfRealPerson(customer)) baseCustomerManager.Save(customer);
+		else System.out.println("Olmadı be ;(");
+	}
+}

@@ -1,0 +1,7 @@
+package Concrete;
+
+import Abstract.CustomerCheckService;
+
+public class CustomerCheckManager import CustomerCheckService {
+
+}
